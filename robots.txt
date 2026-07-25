@@ -1,0 +1,13 @@
+User-agent: *
+Allow: /
+
+# Prefer canonical home URL — avoid indexing /index.html duplicate
+Disallow: /index.html
+
+# Do not index these pages (intentional)
+Disallow: /pages/case-study.html
+Disallow: /pages/blog.html
+Disallow: /pages/case-study
+Disallow: /pages/blog
+
+Sitemap: https://primesoftnoxsolutions.com/sitemap.xml
